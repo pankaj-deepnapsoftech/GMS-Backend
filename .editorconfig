@@ -1,0 +1,25 @@
+# Root EditorConfig file
+root = true
+
+# Default settings for all files
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# JavaScript & JSON files
+[*.{js,json}]
+indent_style = space
+indent_size = 2
+
+# Markdown files (keep trailing spaces for line breaks)
+[*.md]
+trim_trailing_whitespace = false
+
+# Ignore specific files
+[package-lock.json]
+indent_style = space
+indent_size = 2
