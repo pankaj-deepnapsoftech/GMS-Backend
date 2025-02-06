@@ -1,6 +1,8 @@
 import mongoose from 'mongoose';
-import { DB_NAME } from '../../constant.js';
 import { config } from '../config/env.config.js';
+
+ const DB_NAME = 'gym';
+
 
 const connectDB = async () => {
   try {
