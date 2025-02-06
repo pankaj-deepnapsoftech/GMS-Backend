@@ -1,5 +1,5 @@
 import app from './app.js';
-import { connectDB } from './config/db.js';
+import { connectDB } from './connection/db.js';
 
 const serverPort = 5000;
 

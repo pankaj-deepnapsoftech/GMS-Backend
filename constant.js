@@ -1,1 +1,1 @@
-export const DB_NAME = 'gym managment';
+export const DB_NAME = 'gym';
